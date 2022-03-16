@@ -4,9 +4,11 @@ h1{
 *{
 
     border: solid;
+    background-color: #23f8ea;
 }
+
 .header{
-    background-color: blue;
+    background-color: rgb(69, 12, 226);
     display: flex;
     justify-content:space-between  ;
 }
@@ -19,3 +21,40 @@ h1{
     display:flex;
     justify-content: flex-end;
 }
+body{
+    font-size: larger;
+    font-family: cursive;
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+.menu{
+    margin-right: 30px;
+
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+    
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,50%);
+    opacity:0;
+
+}
+.item:hover p{
+    opacity: 1;
+    
+}
+.item:hover img{
+   opacity: 0.33; 
+ }
